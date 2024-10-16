@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Card design using css </title>
+
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+body{
+    background-color: grey;
+    padding: 45px;
+    display: flex;
+
+}
+.card{ 
+    background-color: white;
+    border-radius: 10px;
+     padding: 0 0 54px 0;
+    width:198px;
+    border: 2px solid black;
+    margin-left: 12px;
+
+}
+.image{
+padding: 5px;
+}
+.image img{
+    border-radius:10px;
+
+}
+.content{
+    padding: 3px 12px;
+    font-family: "Poppins", sans-serif;
+
+}
+.content p{
+    
+    font-size: 12px;
+    color: gray;
+}
+.capsules{
+   padding: 0 4px;
+}
+.capsules span{
+    border: 2px solid gray;
+    padding: 0 4px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-family: "Poppins", sans-serif
+
+}
+.button{
+    text-align: center;
+}
+.button button{
+     padding: 7px 8px;
+    background-color: rgb(216, 236, 253);
+    color: rgb(14, 150, 237);
+    border-radius:14px ;
+    margin-top: 3px;
+    font-size: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.button button:hover{
+    background-color: rgb(194, 225, 246);
+    color: rgb(10, 136, 214);
+}
+
+
+  </style>
+</head>
+<body>
+    <div class="card">
+
+        <div class="image">
+            <img img1 src="man.jpg" alt="" width="188" >
+    
+        </div>
+        <div class="capsules">
+            <span>Travel</span>
+           
+            <span>vibes</span>
+ </div>
+           <div class="content">
+            <h2> TIMELESS TRAVELS </h2>
+            <p>
+                Discover places where time seems to stand still. From ancient ruins to serene natural landscapes, these destinations offer an unparalleled mix of history, culture, and scenic beauty, promising memories.
+            </p>
+         
+        </div>
+        <div class="button">
+            <button>Read More</button>
+        </div>
+        
+    </div>
+    <div class="card">
+
+        <div class="image">
+            <img src="vintage.jpg" alt="" width="188" height="125.33">
+        
+        </div>
+        <div class="capsules">
+            <span>Routes</span>
+           
+            <span>Charms</span>
+ </div>
+           <div class="content">
+            <h2> VIBE OF THE VINTAGE  </h2>
+            <p>
+                Step into the golden era of travel, where retro vibes and timeless charm converge. From vintage cars cruising through old streets to classic architecture, these destinations offer anostalgic yet exciting journey.
+            </p>
+         
+        </div>
+        <div class="button">
+            <button>Read More</button>
+        </div>
+        
+    </div>
+    <div class="card">
+
+        <div class="image">
+            <img src="beach.jpeg" alt="" width="188" height="125.33" >
+        
+        </div>
+        <div class="capsules">
+            <span>Haven</span>
+           
+            <span>Peace</span>
+ </div>
+           <div class="content">
+            <h2> ETERNAL ESCAPES</h2>
+            <p>
+                Escape to destinations that feel untouched by the rush of modern life. Whether it's hidden beaches, ancient cities, or serene countryside, these places offer timeless beauty and a sense of peace.
+         
+        </div>
+        <div class="button">
+            <button>Read More</button>
+        </div>
+        
+    </div>
+        
+   
+</body>
+</html>
